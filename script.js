@@ -1,14 +1,4 @@
-function setup() {
-    createCanvas(400, 400);
-    background("white")
-  }
-  
-  function draw() {
-    stroke("blue");
-    fill("red");
-    
-    
-    if (mouseIsPressed) {
-      rect(mouseX, mouseY, 20, 35);
-    }
-  }
+// Aqui você pode adicionar interatividade, como animações, manipulação de eventos, etc.
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Página carregada!');
+});
